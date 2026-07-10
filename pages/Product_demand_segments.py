@@ -111,7 +111,7 @@ st.plotly_chart(
 
     fig,
 
-    use_container_width=True
+    width='stretch' 
 
 )
 
@@ -153,7 +153,7 @@ left.plotly_chart(
 
     fig1,
 
-    use_container_width=True
+    width='stretch' 
 
 )
 
@@ -185,7 +185,7 @@ right.plotly_chart(
 
     fig2,
 
-    use_container_width=True
+    width='stretch' 
 
 )
 
@@ -215,7 +215,7 @@ st.dataframe(
 
     display,
 
-    use_container_width=True,
+    width='stretch' ,
 
     height=450
 
@@ -263,7 +263,7 @@ st.dataframe(
 
     summary,
 
-    use_container_width=True
+    width='stretch' 
 
 )
 

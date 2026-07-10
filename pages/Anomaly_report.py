@@ -145,7 +145,7 @@ fig.update_layout(
 
 st.plotly_chart(
     fig,
-    use_container_width=True
+    width='stretch' 
 )
 
 st.divider()
@@ -172,7 +172,7 @@ st.dataframe(
 
     display,
 
-    use_container_width=True,
+    width='stretch' ,
 
     height=350
 
@@ -224,7 +224,7 @@ st.plotly_chart(
 
     fig2,
 
-    use_container_width=True
+    width='stretch' 
 
 )
 
@@ -258,7 +258,7 @@ st.plotly_chart(
 
     fig3,
 
-    use_container_width=True
+    width='stretch' 
 
 )
 

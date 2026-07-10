@@ -166,7 +166,7 @@ fig_year.update_layout(
 
 st.plotly_chart(
     fig_year,
-    use_container_width=True
+    width='stretch' 
 )
 
 st.divider()
@@ -203,7 +203,7 @@ fig_month.update_layout(
 
 st.plotly_chart(
     fig_month,
-    use_container_width=True
+    width='stretch' 
 )
 
 st.divider()
@@ -244,7 +244,7 @@ fig_region.update_layout(
 
 left.plotly_chart(
     fig_region,
-    use_container_width=True
+    width='stretch' 
 )
 
 # CATEGORY
@@ -273,7 +273,7 @@ fig_category.update_layout(height=450)
 
 right.plotly_chart(
     fig_category,
-    use_container_width=True
+    width='stretch' 
 )
 
 st.divider()
@@ -326,7 +326,7 @@ fig_sub.update_layout(
 
 st.plotly_chart(
     fig_sub,
-    use_container_width=True
+    width='stretch' 
 )
 
 st.divider()
@@ -365,7 +365,7 @@ fig_heat.update_layout(height=500)
 
 st.plotly_chart(
     fig_heat,
-    use_container_width=True
+    width='stretch' 
 )
 
 st.divider()
@@ -378,7 +378,7 @@ st.subheader("Filtered Dataset")
 
 st.dataframe(
     filtered,
-    use_container_width=True,
+    width='stretch' ,
     height=400
 )
 
