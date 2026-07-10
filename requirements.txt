@@ -1,5 +1,9 @@
-streamlit==1.47.0
-pandas==2.3.1
-numpy==2.3.1
-plotly==6.2.0
-matplotlib==3.10.3
+streamlit
+pandas
+numpy
+matplotlib
+plotly
+scikit-learn
+statsmodels
+prophet
+xgboost
