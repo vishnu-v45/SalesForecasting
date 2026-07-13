@@ -256,11 +256,8 @@ summary = (
 )
 
 st.dataframe(
-
     summary,
-
-    width='stretch' 
-
+    use_container_width=True
 )
 
 st.divider()
