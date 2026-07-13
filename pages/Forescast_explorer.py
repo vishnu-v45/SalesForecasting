@@ -233,11 +233,9 @@ st.divider()
 st.subheader("Forecast Values")
 
 st.dataframe(
-
     selected_data,
-
-    width='stretch' 
-
+    use_container_width=True,
+    
 )
 
 csv = selected_data.to_csv(index=False).encode("utf-8")

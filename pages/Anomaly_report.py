@@ -169,13 +169,9 @@ display = anomaly_points[
 ]
 
 st.dataframe(
-
     display,
-
-    width='stretch' ,
-
-    height=350
-
+    use_container_width=True,
+    height=400
 )
 
 csv = display.to_csv(index=False).encode("utf-8")

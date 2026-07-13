@@ -378,7 +378,7 @@ st.subheader("Filtered Dataset")
 
 st.dataframe(
     filtered,
-    width='stretch' ,
+    use_container_width=True,
     height=400
 )
 

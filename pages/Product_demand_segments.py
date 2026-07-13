@@ -212,13 +212,9 @@ display = cluster_df[
 ]
 
 st.dataframe(
-
     display,
-
-    width='stretch' ,
-
-    height=450
-
+    use_container_width=True,
+    height=400
 )
 
 csv = display.to_csv(index=False).encode("utf-8")
